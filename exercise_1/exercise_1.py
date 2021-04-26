@@ -160,6 +160,6 @@ for k in lect_dict:
 #for t in teaid:
 #    print(t.name,"has a unique ID",t.teacher_id)
 
-output = [Person, Student, Teacher, Lecture]
+output = [Person, Teacher, Student, Lecture]
 
     return output       # DO NOT CHANGE THIS LINE
