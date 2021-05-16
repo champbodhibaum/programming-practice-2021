@@ -1,10 +1,18 @@
 def exercise_3(inputs): # DO NOT CHANGE THIS LINE
-    """
-    This functions receives the input in the parameter 'inputs'. 
-    Change the code, so that the output is sqaure of the given input.
+    import Exercise_3_library
 
-    Output should be the name of the class.
-    """
+    while True:
+        a=input("Input a sentence (input 'stop' to end) : ")
+
+        if a!="stop":
+            Exercise_3_library.sorter(a)
+            Exercise_3_library.counter(a)
+            Exercise_3_library.finder1(a)
+            Exercise_3_library.finder2(a)
+
+        elif a=="stop":
+            break
+            
     output = inputs
 
     return output       # DO NOT CHANGE THIS LINE
